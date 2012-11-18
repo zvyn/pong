@@ -80,6 +80,6 @@ void Parse::printUsageAndExit()
       "\t-w [--points-to-win=]Num"
       "ber : Set the count of points you need to win.\n"
       "\t-a [--speedup=]Number : speedup after every point\n"
-      "\t-w [--trace=]Number : Trace of the Ball\n");
+      "\t-t [--trace=]Number : Trace of the Ball\n");
   exit(1);
 }
