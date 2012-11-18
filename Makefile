@@ -17,14 +17,7 @@ clean:
 	
 %Main: %Main.o $(OBJECTS)
 	$(CXX) -o $@ $^ -lcurses
+	mv PongMain pong
 
 %Main.o: %Main.cpp $(HAEDER)
 	$(CXX) -c $<
-
-verbose: 
-	# CXX=$(CXX)
-	# HAEDER=$(HAEDER)
-	# OBJECTS=$(OBJECTS)
-	# MAIN_BINARIES=$(MAIN_BINARIES)
-
-	
