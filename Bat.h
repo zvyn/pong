@@ -27,7 +27,7 @@ class Bat
   // draw the bat at current Position
   void Draw();
   void Draw(int y);
-  // Delate bat from screen
+  // Delete bat from screen
   void Erase();
  private:
   // current Position (upper left corner is (0,0))
