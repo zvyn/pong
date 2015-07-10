@@ -1,2 +1,5 @@
 pong
 *.swp
+*.o
+*.gz
+*.xz
